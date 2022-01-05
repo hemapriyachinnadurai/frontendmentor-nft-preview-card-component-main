@@ -21,17 +21,6 @@
             background-color: hsl(217, 54%, 11%);
         }
         
-        .image-container::before {
-            content: "";
-            position: absolute;
-            width: 230px;
-            height: 210px;
-            padding: 20px;
-            border-radius: 25px;
-            z-index: -1;
-            opacity: .1;
-        }
-        
         .page-container {
             display: flex;
             align-items: center;
@@ -61,8 +50,6 @@
         
         .image:hover {
             background: url("images/icon-view.svg");
-            background-repeat: no-repeat;
-            background-color: aqua;
             cursor: pointer;
         }
         
@@ -143,7 +130,6 @@
             <div class="image-container">
                 <!-- image -->
                 <img class="image" src="images\image-equilibrium.jpg">
-                <div class=""></div>
             </div>
             <div class="text-container">
                 <!-- text -->
